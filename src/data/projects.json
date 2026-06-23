@@ -1,0 +1,20 @@
+[
+  {
+    "id": "p1",
+    "title": "Portfolio Framework",
+    "description": "Modular React-based portfolio framework using reusable components, JSON-driven content, theme support, and GitHub Pages deployment.",
+    "url": "#"
+  },
+  {
+    "id": "p2",
+    "title": "Homelab Infrastructure",
+    "description": "Designing a self-hosted environment using Proxmox, Linux, Docker, monitoring, and web services.",
+    "url": "#"
+  },
+  {
+    "id": "p3",
+    "title": "Reddit Stock Tracker",
+    "description": "Planned analytics platform that tracks ticker mentions, sentiment, and discussion trends from Reddit using Python and PostgreSQL.",
+    "url": "#"
+  }
+]

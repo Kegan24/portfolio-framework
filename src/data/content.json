@@ -1,0 +1,42 @@
+{
+  "site": {
+    "title": "My Portfolio",
+    "nav": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "About", "href": "#about" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "heading": "Hello, I'm Jane Doe",
+    "subheading": "Frontend developer — React, TypeScript, Design"
+  },
+  "projects": [
+    {
+      "id": "p1",
+      "title": "Project One",
+      "description": "A short description of project one.",
+      "url": "#"
+    },
+    {
+      "id": "p2",
+      "title": "Project Two",
+      "description": "A short description of project two.",
+      "url": "#"
+    }
+  ],
+  "about": {
+    "title": "About Me",
+    "body": "I build accessible, responsive web experiences."
+  },
+  "contact": {
+    "email": "jane@example.com",
+    "social": [
+      { "label": "GitHub", "href": "https://github.com/" }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 Jane Doe"
+  }
+}
