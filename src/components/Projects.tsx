@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectCard from './ProjectCard'
+import ProjectCard, { type Project } from './ProjectCard'
 import projects from '../data/projects.json'
 
 export default function Projects() {
@@ -7,7 +7,7 @@ export default function Projects() {
     <section id="projects" className="projects container">
       <h2>Projects</h2>
       <div className="projects-grid">
-        {projects.map((p: any) => (
+        {(projects as Project[]).map((p) => (
           <ProjectCard key={p.id} project={p} />
         ))}
       </div>

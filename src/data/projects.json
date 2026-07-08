@@ -1,20 +1,29 @@
 [
   {
     "id": "p1",
+    "slug": "portfolio-framework",
     "title": "Portfolio Framework",
     "description": "Modular React-based portfolio framework using reusable components, JSON-driven content, theme support, and GitHub Pages deployment.",
-    "url": "#"
+    "url": "/projects/portfolio-framework",
+    "details": "A reusable personal portfolio foundation built around React components, JSON content files, theme support, and static deployment.",
+    "technologies": ["React", "TypeScript", "Vite", "GitHub Pages"]
   },
   {
     "id": "p2",
+    "slug": "homelab",
     "title": "Homelab Infrastructure",
     "description": "Designing a self-hosted environment using Proxmox, Linux, Docker, monitoring, and web services.",
-    "url": "#"
+    "url": "/projects/homelab",
+    "details": "A hands-on infrastructure project focused on virtualization, containerized services, monitoring, and repeatable home server operations.",
+    "technologies": ["Proxmox", "Linux", "Docker", "Monitoring"]
   },
   {
     "id": "p3",
+    "slug": "reddit-stock-tracker",
     "title": "Reddit Stock Tracker",
     "description": "Planned analytics platform that tracks ticker mentions, sentiment, and discussion trends from Reddit using Python and PostgreSQL.",
-    "url": "#"
+    "url": "/projects/reddit-stock-tracker",
+    "details": "A planned data application for collecting Reddit discussion signals, tracking ticker mentions, and surfacing stock discussion trends.",
+    "technologies": ["Python", "PostgreSQL", "Analytics", "Reddit API"]
   }
 ]

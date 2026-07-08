@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import site from '../data/site.json'
 import ThemeToggle from './ThemeToggle'
 
@@ -13,7 +14,9 @@ export default function Header() {
           <ul className="nav-list">
             {site.nav.map((n: NavItem) => (
               <li key={n.href}>
-                <a href={n.href}>{n.label}</a>
+                <NavLink to={n.href} end={n.href === '/'}>
+                  {n.label}
+                </NavLink>
               </li>
             ))}
           </ul>
