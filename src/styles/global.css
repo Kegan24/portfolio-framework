@@ -27,9 +27,22 @@ body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;marg
 .project-card{border:1px solid rgba(0,0,0,0.06);padding:1rem;border-radius:8px;background:rgba(255,255,255,0.02)}
 .project-link{color:var(--accent)}
 .about,.contact,.experience,.resume,.project-detail{padding:2rem 0}
+.resume-header{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;margin-bottom:1rem}
+.resume-header h2{margin-bottom:0.25rem}
+.resume-headline{color:var(--muted);margin:0}
+.resume-contact{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:2rem}
+.resume-contact a{color:var(--accent)}
+.resume-section{margin-top:2rem}
+.resume-list{margin:0;padding-left:1.25rem}
+.button-link{background:var(--accent);border-radius:6px;color:#ffffff;display:inline-block;padding:0.65rem 0.9rem;text-decoration:none;white-space:nowrap}
 .tag-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:0.5rem}
 .tag-list li{border:1px solid rgba(0,0,0,0.08);border-radius:6px;padding:0.35rem 0.6rem}
 .site-footer{border-top:1px solid rgba(0,0,0,0.06);padding:1rem 0;margin-top:2rem}
+
+@media (max-width: 640px){
+	.resume-header{display:block}
+	.button-link{margin-top:1rem}
+}
 
 .theme-toggle{background:transparent;border:1px solid rgba(0,0,0,0.08);padding:6px 10px;border-radius:6px;cursor:pointer}
 .theme-toggle:hover{opacity:0.9}

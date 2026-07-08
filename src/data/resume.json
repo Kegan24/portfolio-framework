@@ -1,0 +1,78 @@
+{
+  "name": "Kegan Anderson",
+  "headline": "Business Analyst | Data and Reporting",
+  "downloadFile": "Kegan-Anderson-Resume.pdf",
+  "contact": {
+    "location": "Yorkville, IL",
+    "phone": "(630) 764-9095",
+    "email": "kegananderson24@gmail.com",
+    "links": [
+      { "label": "GitHub", "href": "https://github.com/Kegan24" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/kegananderson24/" }
+    ]
+  },
+  "summary": "Business Analyst with experience supporting data-driven operations, reporting, and system workflows. Skilled in Excel analysis, data validation, and CRM data management. Proven ability to improve data accuracy, streamline processes, and deliver reporting insights that support business decision making.",
+  "skills": [
+    "Excel",
+    "Pivot tables",
+    "Data cleaning",
+    "Reporting",
+    "Trend analysis",
+    "SQL basics",
+    "CRM systems",
+    "Zoho CRM",
+    "Zoho Desk",
+    "Data validation",
+    "Data quality management",
+    "Operational reporting",
+    "Performance tracking",
+    "Stakeholder communication",
+    "Process improvement",
+    "Cross-functional collaboration"
+  ],
+  "experience": [
+    {
+      "id": "brycer",
+      "title": "Data Analyst",
+      "organization": "Brycer LP",
+      "location": "Lisle, IL",
+      "period": "Aug 2024 - Present",
+      "highlights": [
+        "Analyzed and maintained operational datasets within CRM systems to support reporting on performance trends and business metrics",
+        "Developed reporting processes to track compliance and operational trends, improving visibility and decision making",
+        "Improved data accuracy and reduced report rejections through data validation and process improvements",
+        "Identified and resolved data discrepancies, ensuring integrity across reporting systems and supporting business operations",
+        "Coordinated with international teams to validate and standardize jurisdictional data, improving reporting consistency",
+        "Led a remote data collection initiative using mapping tools to improve system tracking and operational visibility"
+      ]
+    },
+    {
+      "id": "sages-meat-market",
+      "title": "Business Analyst | Data and Reporting",
+      "organization": "Sage's Meat Market",
+      "location": "Oswego, IL",
+      "period": "Jun 2020 - Aug 2024",
+      "highlights": [
+        "Managed inventory tracking and reporting, improving accuracy and reducing waste",
+        "Improved operational processes to increase efficiency and consistency across daily workflows",
+        "Built reporting processes to track compliance and operational trends, improving visibility and decision making",
+        "Standardized datasets within CRM systems to improve reporting accuracy and consistency"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "niu",
+      "title": "Bachelor of General Studies",
+      "organization": "Northern Illinois University",
+      "period": "Graduated 2023"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "aws-cloud-practitioner",
+      "title": "AWS Cloud Practitioner",
+      "status": "In Progress"
+    }
+  ]
+}
