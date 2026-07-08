@@ -9,6 +9,7 @@ import HomePage from './pages/Home'
 import ProjectDetailPage from './pages/ProjectDetail'
 import ProjectsPage from './pages/Projects'
 import ResumePage from './pages/Resume'
+import footer from './data/footer.json'
 
 export default function App() {
   return (
@@ -25,7 +26,7 @@ export default function App() {
           <Route path="/resume" element={<ResumePage />} />
         </Routes>
       </main>
-      <Footer footer={{ copyright: '(c) 2026 Jane Doe' }} />
+      <Footer footer={footer} />
     </div>
   )
 }
