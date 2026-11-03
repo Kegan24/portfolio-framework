@@ -92,3 +92,21 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
 @media (max-width:760px) {
   .featured-grid,.about-grid { grid-template-columns:1fr; }
 }
+
+
+/* Project case studies */
+.case-study-header { padding:2rem 0 2.5rem; border-bottom:1px solid var(--border); }
+.case-study-title { display:flex; align-items:center; flex-wrap:wrap; gap:1rem; }
+.case-study-title h2 { margin:.4rem 0; font-size:clamp(2.2rem,5vw,3.6rem); letter-spacing:-.04em; line-height:1.15; }
+.case-study-lead { max-width:760px; font-size:1.18rem; color:var(--muted); }
+.case-study-header .button-link { margin-top:1.25rem; }
+.case-study-body { display:grid; gap:1.2rem; max-width:850px; padding-top:2rem; }
+.case-study-section { padding:1.5rem; background:var(--surface); border:1px solid var(--border); border-radius:14px; }
+.case-study-section h3 { margin:0 0 .8rem; font-size:1.3rem; }
+.case-study-section p { margin:.4rem 0; color:var(--muted); }
+.case-study-section ul { margin:.5rem 0 0; padding-left:1.35rem; }
+.case-study-section li + li { margin-top:.65rem; }
+.case-study-gallery { display:grid; gap:1rem; }
+.case-study-gallery figure { margin:0; }
+.case-study-gallery img { width:100%; height:auto; display:block; border:1px solid var(--border); border-radius:10px; }
+.case-study-gallery figcaption { margin-top:.5rem; font-size:.9rem; color:var(--muted); }
