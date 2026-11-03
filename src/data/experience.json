@@ -1,25 +1,25 @@
 [
-{
-"id": "e1",
-"company": "Brycer",
-"role": "Data Quality Analyst",
-"period": "2025 - Present",
-"description": "Support data quality, compliance reporting, and process improvement initiatives for fire and life safety reporting programs.",
-"highlights": [
-"Manage and validate large volumes of compliance and inspection data",
-"Collaborate with inspection companies and AHJs to resolve data quality issues",
-"Support Virtual Walkthrough initiatives and jurisdiction research projects",
-"Develop reporting and analysis workflows using Excel and internal platforms"
-]
-},
-{
-"id": "e2",
-"company": "Northern Illinois University",
-"role": "Bachelor of General Studies",
-"period": "Graduated 2023",
-"description": "Completed interdisciplinary studies with focus areas supporting business, analytics, and technology.",
-"highlights": [
-"Bachelor's Degree earned in 2023"
-]
-}
+  {
+    "id": "e1",
+    "company": "Brycer",
+    "role": "Data Quality Analyst",
+    "period": "August 2024 – June 2026",
+    "description": "Supported compliance data quality, operational reporting, and process improvement for fire and life safety reporting programs.",
+    "highlights": [
+      "Validated and maintained inspection and compliance records across internal systems and Zoho CRM",
+      "Coordinated with inspection partners and authorities having jurisdiction to resolve data discrepancies",
+      "Supported Virtual Walkthrough operations and jurisdiction onboarding reviews",
+      "Used Excel and internal platforms for recurring reporting and process documentation"
+    ]
+  },
+  {
+    "id": "e2",
+    "company": "Northern Illinois University",
+    "role": "Bachelor of General Studies",
+    "period": "Graduated May 2023",
+    "description": "Interdisciplinary studies including business analytics, project management, organizational communication, and technical writing.",
+    "highlights": [
+      "Completed bachelor's degree in 2023"
+    ]
+  }
 ]
