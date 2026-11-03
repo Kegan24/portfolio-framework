@@ -5,14 +5,33 @@
     "title": "Portfolio Website",
     "description": "A modular React and TypeScript portfolio with reusable components, JSON-driven content, theme support, and GitHub Pages deployment.",
     "url": "/projects/portfolio-framework",
-    "details": "Built to present professional experience and technical projects through a reusable, content-driven React application.",
+    "status": "In progress",
+    "details": "A personal portfolio built to communicate professional experience and demonstrate hands-on web development. The application separates site content from presentation components so sections and projects can be updated without rewriting page layouts.",
+    "objective": "Create a responsive, maintainable website that presents business analysis experience and technical projects clearly to recruiters.",
     "technologies": [
       "React",
       "TypeScript",
       "Vite",
-      "GitHub Pages"
+      "React Router",
+      "GitHub Actions"
     ],
-    "status": "In progress"
+    "repository": "https://github.com/Kegan24/portfolio-framework",
+    "approach": [
+      "Organized the site into reusable React components and dedicated routes for About, Experience, Projects, Contact, and Resume.",
+      "Stored professional and project content in JSON files to simplify maintenance.",
+      "Implemented light and dark themes and responsive layouts for desktop and mobile.",
+      "Configured a Vite production build and a GitHub Actions workflow for GitHub Pages deployment."
+    ],
+    "challenges": [
+      "Balanced a detailed homepage with separate pages so visitors can scan key information without losing access to deeper content.",
+      "Used a development branch to review changes before merging them into the published site.",
+      "GitHub Pages routing and direct-link refresh behavior still require deployment verification."
+    ],
+    "outcomes": [
+      "A functioning multi-page portfolio with project listings, professional experience, and resume navigation.",
+      "The latest development-branch changes passed a local Vite production build.",
+      "Next: add authentic screenshots, test mobile layouts, and verify the published deployment."
+    ]
   },
   {
     "id": "p2",
